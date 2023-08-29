@@ -1,12 +1,12 @@
 {
   "FeConfig": {
     "show_emptyChat": true,
-    "show_register": false,
+    "show_register": true,
     "show_appStore": false,
     "show_userDetail": false,
-    "show_git": true,
-    "systemTitle": "FastGPT",
-    "authorText": "Made by FastGPT Team.",
+    "show_git": false,
+    "systemTitle": "FastGPT test",
+    "authorText": "JiRan",
     "gitLoginKey": "",
     "scripts": []
   },
