@@ -29,4 +29,3 @@ platform.json
 testApi/
 local/
 .husky/
-data/*.local.*
