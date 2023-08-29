@@ -106,7 +106,6 @@ const LoginForm = ({ setPageType, loginSuccess }: Props) => {
             {!!errors.password && errors.password.message}
           </FormErrorMessage>
         </FormControl>
-        {feConfigs?.show_register && (
           <Flex align={'center'} justifyContent={'space-between'} mt={3} color={'myBlue.600'}>
             <Box
               cursor={'pointer'}
@@ -125,7 +124,6 @@ const LoginForm = ({ setPageType, loginSuccess }: Props) => {
               注册账号
             </Box>
           </Flex>
-        )}
         <Button
           type="submit"
           mt={6}
