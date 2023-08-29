@@ -3,7 +3,7 @@ import { sendAuthCode } from '@/api/user';
 import { UserAuthTypeEnum } from '@/constants/common';
 let timer: any;
 import { useToast } from './useToast';
-import { getClientToken } from '@/utils/plugin/google';
+// import { getClientToken } from '@/utils/plugin/google';
 import { feConfigs } from '@/store/static';
 
 export const useSendCode = () => {
@@ -24,11 +24,11 @@ export const useSendCode = () => {
     async ({ username, type }: { username: string; type: `${UserAuthTypeEnum}` }) => {
       setCodeSending(true);
       try {
-        await sendAuthCode({
-          username,
-          type,
-          googleToken: await getClientToken(feConfigs.googleClientVerKey)
-        });
+        // await sendAuthCode({
+        //   username,
+        //   type,
+        //   googleToken: await getClientToken(feConfigs.googleClientVerKey)
+        // });
         setCodeCountDown(60);
         timer = setInterval(() => {
           setCodeCountDown((val) => {
