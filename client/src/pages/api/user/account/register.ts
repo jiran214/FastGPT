@@ -5,7 +5,7 @@ import { User } from '@/service/models/user';
 import { connectToDatabase } from '@/service/mongo';
 import { generateToken, setCookie } from '@/service/utils/tools';
 import { UserAuthTypeEnum } from '@/constants/common';
-import { authCode } from '@/service/api/plugins';
+// import { authCode } from '@/service/api/plugins';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<any>) {
   try {
