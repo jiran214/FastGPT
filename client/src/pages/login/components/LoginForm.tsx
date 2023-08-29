@@ -136,19 +136,6 @@ const LoginForm = ({ setPageType, loginSuccess }: Props) => {
         >
           登录
         </Button>
-        {feConfigs?.show_register && (
-          <>
-            <Flex mt={10} justifyContent={'center'} alignItems={'center'}>
-              <MyIcon
-                name="gitFill"
-                w={'34px'}
-                cursor={'pointer'}
-                color={'myGray.800'}
-                onClick={onclickGit}
-              />
-            </Flex>
-          </>
-        )}
       </form>
     </>
   );

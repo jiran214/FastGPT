@@ -22,13 +22,13 @@ const Navbar = () => {
   const menuList = useMemo(
     () => [
       // { label: t('home.Features'), key: 'features', onClick: () => {} },
-      {
-        label: t('home.Community'),
-        key: 'community',
-        onClick: () => {
-          onOpenCommunity();
-        }
-      },
+      // {
+      //   label: t('home.Community'),
+      //   key: 'community',
+      //   onClick: () => {
+      //     onOpenCommunity();
+      //   }
+      // },
       {
         label: t('home.Docs'),
         key: 'docs',

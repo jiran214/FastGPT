@@ -42,20 +42,20 @@ const Account = ({ currentTab }: { currentTab: `${TabEnum}` }) => {
       label: t('user.Usage Record'),
       id: TabEnum.bill
     },
-    ...(feConfigs?.show_userDetail
-      ? [
-          {
-            icon: 'promotionLight',
-            label: t('user.Promotion Record'),
-            id: TabEnum.promotion
-          },
-          {
-            icon: 'payRecordLight',
-            label: t('user.Recharge Record'),
-            id: TabEnum.pay
-          }
-        ]
-      : []),
+    // ...(feConfigs?.show_userDetail
+    //   ? [
+    //       {
+    //         icon: 'promotionLight',
+    //         label: t('user.Promotion Record'),
+    //         id: TabEnum.promotion
+    //       },
+    //       {
+    //         icon: 'payRecordLight',
+    //         label: t('user.Recharge Record'),
+    //         id: TabEnum.pay
+    //       }
+    //     ]
+    //   : []),
     {
       icon: 'informLight',
       label: t('user.Notice'),

@@ -99,23 +99,6 @@ const Footer = () => {
           {t('home.FastGPT Desc')}
         </Box>
       </Box>
-      {list.map((item) => (
-        <Box key={item.label} w={'200px'} mt={[5, 0]}>
-          <Box color={'myGray.500'}>{item.label}</Box>
-          {item.child.map((child) => (
-            <Box
-              key={child.label}
-              mt={[2, 3]}
-              cursor={'pointer'}
-              _hover={{ textDecoration: 'underline' }}
-              onClick={child.onClick}
-            >
-              {child.label}
-            </Box>
-          ))}
-        </Box>
-      ))}
-      {isOpen && <CommunityModal onClose={onClose} />}
     </Box>
   );
 };
