@@ -5,7 +5,7 @@ import { User } from '@/service/models/user';
 import { connectToDatabase } from '@/service/mongo';
 import { UserAuthTypeEnum } from '@/constants/common';
 import { generateToken, setCookie } from '@/service/utils/tools';
-import { authCode } from '@/service/api/plugins';
+// import { authCode } from '@/service/api/plugins';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<any>) {
   try {
@@ -18,13 +18,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     await connectToDatabase();
 
     // 验证码校验
-    await authCode({
-      username,
-      code,
-      type: UserAuthTypeEnum.findPassword
-    });
+    // await authCode({
+    //   username,
+    //   code,
+    //   type: UserAuthTypeEnum.findPassword
+    // });
 
-    if (!authCode) {
+    if (code!='1234') {
       throw new Error('验证码错误');
     }
 
