@@ -40,7 +40,7 @@ const defaultFeConfigs = {
   show_appStore: false,
   show_userDetail: false,
   show_git: true,
-  systemTitle: 'FastGPT',
+  systemTitle: '新乳业GPT',
   authorText: 'Made by FastGPT Team.'
 };
 const defaultChatModels = [

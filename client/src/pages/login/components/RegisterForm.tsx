@@ -107,27 +107,14 @@ const RegisterForm = ({ setPageType, loginSuccess }: Props) => {
           </FormErrorMessage>
         </FormControl>
         <FormControl mt={8} isInvalid={!!errors.username}>
-          <Flex>
-            <Input
-              flex={1}
-              size={['md', 'lg']}
-              placeholder="验证码"
-              {...register('code', {
-                required: '验证码不能为空'
-              })}
-            ></Input>
-            <Button
-              ml={5}
-              w={'145px'}
-              maxW={'50%'}
-              size={['md', 'lg']}
-              onClick={onclickSendCode}
-              isDisabled={codeCountDown > 0}
-              isLoading={codeSending}
-            >
-              {sendCodeText}
-            </Button>
-          </Flex>
+          <Input
+            flex={1}
+            size={['md', 'lg']}
+            placeholder="联系管理员获取密钥"
+            {...register('code', {
+              required: '验证码不能为空'
+            })}
+          ></Input>
           <FormErrorMessage position={'absolute'} fontSize="xs">
             {!!errors.code && errors.code.message}
           </FormErrorMessage>
