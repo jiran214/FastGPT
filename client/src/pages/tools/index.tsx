@@ -37,7 +37,7 @@ const Tools = () => {
     {
       icon: 'courseLight',
       label: '使用文档',
-      link: 'https://doc.fastgpt.run/docs/intro'
+      link: 'https://newhope1982.feishu.cn/docx/MIFtdv1wEoWxKjxOxjmczteQn1c?from=from_copylink'
     }
   ];
 

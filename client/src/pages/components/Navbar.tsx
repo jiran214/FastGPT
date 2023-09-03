@@ -33,7 +33,7 @@ const Navbar = () => {
         label: t('home.Docs'),
         key: 'docs',
         onClick: () => {
-          window.open('https://doc.fastgpt.run/docs/intro');
+          window.open('https://newhope1982.feishu.cn/docx/MIFtdv1wEoWxKjxOxjmczteQn1c?from=from_copylink');
         }
       }
     ],
@@ -92,7 +92,7 @@ const Navbar = () => {
           ml={3}
           fontStyle={'italic'}
         >
-          {feConfigs?.systemTitle}
+          新乳业GPT
         </Box>
         <Box flex={1} />
         {isPc ? (

@@ -167,7 +167,7 @@ const Navbar = ({ unread }: { unread: number }) => {
           mb={0}
           color={'#9096a5'}
           onClick={() => {
-            window.open(`https://doc.fastgpt.run/docs/intro`);
+            window.open(`https://newhope1982.feishu.cn/docx/MIFtdv1wEoWxKjxOxjmczteQn1c?from=from_copylink`);
           }}
         >
           <Badge count={unread}>

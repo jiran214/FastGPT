@@ -41,7 +41,7 @@ const defaultFeConfigs = {
   show_userDetail: false,
   show_git: true,
   systemTitle: '新乳业GPT',
-  authorText: 'Made by FastGPT Team.'
+  authorText: '新乳业GPT'
 };
 const defaultChatModels = [
   {

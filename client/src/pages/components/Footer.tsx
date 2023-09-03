@@ -47,7 +47,7 @@ const Footer = () => {
           {
             label: t('home.Footer Docs'),
             onClick: () => {
-              window.open('https://doc.fastgpt.run/docs/intro', '_blank');
+              window.open('https://newhope1982.feishu.cn/docx/MIFtdv1wEoWxKjxOxjmczteQn1c?from=from_copylink', '_blank');
             }
           }
         ]
@@ -92,7 +92,7 @@ const Footer = () => {
             ml={3}
             fontStyle={'italic'}
           >
-            {feConfigs?.systemTitle}
+            新乳业GPT
           </Box>
         </Flex>
         <Box mt={5} fontSize={'sm'} color={'myGray.600'} maxW={'380px'} textAlign={'justify'}>

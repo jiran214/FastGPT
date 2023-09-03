@@ -63,7 +63,7 @@
   },
   "dataset": {
     "Confirm to delete the data": "确认删除该数据？",
-    "Queue Desc": "该数据是指整个系统当前待训练的数量。FastGPT 采用排队训练的方式，如果待训练的数据过多，可能需要等待一段时间",
+    "Queue Desc": "该数据是指整个系统当前待训练的数量。新乳业GPT 采用排队训练的方式，如果待训练的数据过多，可能需要等待一段时间",
     "System Data Queue": "排队长度"
   },
   "file": {
@@ -102,12 +102,12 @@
     "Dateset": "自动数据预处理",
     "Dateset Desc": "提供手动输入、直接分段、LLM 自动处理和 CSV 等多种数据导入途径",
     "Docs": "文档",
-    "FastGPT Ability": "FastGPT 能力",
-    "FastGPT Desc": "FastGPT 是一个基于 LLM 大语言模型的知识库问答系统，提供开箱即用的数据处理、模型调用等能力。同时可以通过 Flow 可视化进行工作流编排，从而实现复杂的问答场景！",
+    "FastGPT Ability": "新乳业GPT 能力",
+    "FastGPT Desc": "新乳业GPT 是一个基于 LLM 大语言模型的知识库问答系统，提供开箱即用的数据处理、模型调用等能力。同时可以通过 Flow 可视化进行工作流编排，从而实现复杂的问答场景！",
     "Features": "特点",
     "Footer Developer": "开发者",
     "Footer Docs": "文档",
-    "Footer FastGPT Cloud": "FastGPT 线上服务",
+    "Footer FastGPT Cloud": "新乳业GPT 线上服务",
     "Footer Feedback": "反馈",
     "Footer Git": "源码",
     "Footer Product": "产品",
@@ -119,7 +119,7 @@
     "Quickly build AI question and answer library": "快速搭建 AI 问答系统",
     "Start Now": "立即开始",
     "Visual AI orchestration": "可视化 AI 编排",
-    "Why FastGPT": "为什么选择 FastGPT",
+    "Why FastGPT": "为什么选择 新乳业GPT",
     "desc": "基于 LLM 大模型的 AI 知识库问答平台",
     "slogan": "让 AI 更懂你的知识"
   },
