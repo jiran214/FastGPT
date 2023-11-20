@@ -15,8 +15,9 @@ services:
       - POSTGRES_USER=username
       - POSTGRES_PASSWORD=password
       - POSTGRES_DB=postgres
+      - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
-      - ./pg/data:/var/lib/postgresql/data
+      - ./pg/data:/var/lib/postgresql/data/pgdata
   mongo:
     image: mongo:5.0.18
     # image: registry.cn-hangzhou.aliyuncs.com/fastgpt/mongo:5.0.18 # 阿里云
